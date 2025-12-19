@@ -11,6 +11,6 @@ resource "aws_security_group" "ssh" {
   }
 
   tags = {
-    Name = "test_security"
+    Name = "test_security" 
   }
 }
